@@ -15,6 +15,7 @@ def criar_tabela():
     # Cria tabelas se não existirem
     c.execute('CREATE TABLE IF NOT EXISTS usuarios (email TEXT PRIMARY KEY, senha TEXT, tipo TEXT)')
     c.execute('CREATE TABLE IF NOT EXISTS logs (data TEXT, usuario TEXT, empresa TEXT, cargo TEXT, score INTEGER)')
+    conn.commit()
     
     meu_email = st.secrets.get("ADMIN_EMAIL") 
     if meu_email:
