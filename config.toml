@@ -1,0 +1,3 @@
+[server]
+# Limita o upload de arquivos para 4MB (O padrão é 200MB)
+maxUploadSize = 4
