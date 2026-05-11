@@ -16,7 +16,7 @@ Este projeto é uma ferramenta avançada de análise e ranqueamento de currícul
 
 * **Linguagem**: Python 3.10+
 * **Framework Web**: [Streamlit](https://streamlit.io/)
-* **IA & NLP**: [Google Gemini](https://ai.google.dev/) 
+* **IA & NLP**: [Google Gemini flash](https://ai.google.dev/) 
 * **Base de Dados**: SQLite (Persistência de utilizadores e auditoria)
 * **Processamento de PDF**: `pdfplumber`
 * **Visualização de Dados**: Plotly Express & Pandas
@@ -24,7 +24,7 @@ Este projeto é uma ferramenta avançada de análise e ranqueamento de currícul
 ## 📦 Estrutura do Projeto
 
 ```text
-├── assets/              # Logótipos das plataformas e recursos visuais
+├── assets/              # Logotipos das plataformas e recursos visuais
 ├── app.py               # Interface principal e navegação
 ├── main.py              # Lógica de extração PDF e integração Gemini
 ├── database.py          # Gestão de base de dados e segurança
