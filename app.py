@@ -2,10 +2,12 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 import os
+import database
 from main import extrair_texto_pdf, analisar_cv_com_ia 
 from database import criar_tabela, autenticar_usuario, criar_usuario, registrar_log, obter_metricas_admin
 
 # 1. SETUP INICIAL
+database.criar_tabela()
 st.set_page_config(page_title="Rankeador On-line📈", layout="wide")
 criar_tabela()
 
