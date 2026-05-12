@@ -61,7 +61,7 @@ if st.session_state.get('tipo') == 'admin':
         st.dataframe(logs, use_container_width=True)
 
 # 5. EXECUÇÃO[cite: 7]
-st.title("📑 Análise de Currílo ATS")
+st.title("📑 Análise de Currículo ATS")
 formatos_aceitos = ["pdf"]
 file = st.file_uploader("Carregar Currículo", 
     type = formatos_aceitos,
