@@ -145,4 +145,4 @@ if st.button("Analisar") and file and vaga_desc:
             st.divider()
             st.write(f"**⭐ Satisfação:** {info.get('satisfacao', 'N/A')}")
             st.write(f"**🧬 Cultura:** {info.get('cultura', 'N/A')}")
-            st.writer(f"**🤖 Veracidade da Vaga:** {info.get('veracidade_da_vaga', 'N/A')}")
+            st.write(f"**🤖 Veracidade da Vaga:** {info.get('veracidade_da_vaga', 'N/A')}")
