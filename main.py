@@ -63,7 +63,8 @@ def analisar_cv_com_ia(texto_cv, descricao_vaga, nome_empresa, cargo):
             "o_que_faz": "resumo curto",
             "salarios": {{ "Jr": "R$ X", "Pl": "R$ Y", "Sr": "R$ Z" }},
             "satisfacao": "nota e resumo estilo glassdoor",
-            "cultura": "principais valores"
+            "cultura": "principais valores",
+            "veracidade_da_vaga": "verificar se a vaga realmente existe e/ou foi criada por inteligência artificial"
         }}
     }}
     """
