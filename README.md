@@ -40,4 +40,4 @@ Este projeto está licenciado sob a  **Licença MIT** . Consulte o ficheiro [LIC
 
 ##### 👔Desenvolvido por  Adrian Cardoso - Graduando em Ciência de Dados.
 
-##### Marcas e logotipos exibidos pertencem aos seus respectivos proprietários e são utilizados aqui apenas para fins ilustrativos e de portfólio acadêmico.
+##### NOTA: Marcas e logotipos exibidos são de propriedade de seus respectivos detentores e são utilizados neste projeto estritamente para fins de portfólio acadêmico e demonstração de funcionalidades, sem qualquer vínculo comercial ou oficial.
